@@ -60,26 +60,23 @@ table {
 	color: blue;
 	font-size: 24px;
 	font: Arial;
-	text-align: center;
-	
-	
-	
+	text-align: center;	
 }
 
 .small-img
 {
 	width: 400px;
-	display: block;
-	margin: 0 auto;
+	padding: center;
+	
 
 }
 
 .border-img
 {
-	border-width: 10px;
+	border-width: 5px;
 	border-color: orange;
 	border-style: solid;
-	border-radius: 50%;
+	border-radius: 30%;
 }
 
 .links_head
@@ -89,3 +86,19 @@ table {
 	text-decoration-line: none; 
 }
 
+.bg-color
+{
+	background-color: yellow;
+	margin: 0px 100px 0px 100px
+}
+
+div
+{
+	background-color: #cce0ba;
+	border-width: 1px;
+	border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+    
+}
