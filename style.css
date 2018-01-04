@@ -74,7 +74,7 @@ font-size: 36px;
 text-decoration-line: none;
 }
 .bg-color {
-
+background: linear-gradient(black, gray);
 }
 div {
 margin-left: 5%;
@@ -92,6 +92,8 @@ margin-left: 5%;
 margin-right: 5%;
 }
 header {
+position: sticky;
+top: 0;
 height: 50px;
 margin-left: 5%;
 margin-right: 5%;
@@ -113,13 +115,15 @@ text-decoration-line: none;
 text-shadow: 20px;
 }
 footer {
+position: sticky;
+bottom: 0;
 height: 10%;
 margin-left: 5%;
 margin-right: 5%;
-background-image: url("back_nav.jpg");
 display: flex;
 align-items: center;
 justify-content: center;
+background-image: url("back_nav.jpg");
 }
 footer a {
 font-weight: bold;
@@ -131,6 +135,6 @@ span.ccc {
 margin-left: 5%;
 padding-left: 90%;
 margin-top: 5%; 
-padding-bottom: 55%;
-background-color: yellow;
+padding-bottom: 58%;
+background-image: url("b1.jpg");
 }
