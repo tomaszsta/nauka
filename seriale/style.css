@@ -46,11 +46,33 @@ body{
 	float: left;
 	height: 535px;
 	width: 185px;
-	background-color: red;
+	background-color: #8000ff;
 	padding-left: 15px;
 	padding-top: 15px;
 	font-family: 'Rokkitt', serif;
 	line-height: 1.5;
+}
+#yt{
+	float: left;
+	width: 65px;
+	height: 65px;
+	margin-left: 20px;
+	margin-top: 350px;
+	background-color: #e60000;
+}
+#yt:hover{
+	background-color: #ff3333;
+}
+#fb{
+	float: left;
+	width: 65px;
+	height: 65px;
+	margin-left: 1px;
+	margin-top: 350px;
+	background-color: #2d2dff;
+}
+#fb:hover{
+	background-color: #6262ff;
 }
 .right_menu{
 	float: left;
@@ -77,16 +99,17 @@ body{
 	text-align: center;
 	color: #e3f321;
 	font-size: 16px;
+	font-family: 'Courgette', cursive;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }	
-#snap{
+.snap{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	width: 40%; 
 	height: auto;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 a{
 	text-decoration: none;
@@ -98,5 +121,5 @@ a:hover
      text-decoration:none; 
      
 }
-	
+
 	
