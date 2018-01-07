@@ -22,119 +22,147 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-display: block;
+body{
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 }
-body {
-line-height: 1;
+#container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
-ol, ul {
-list-style: none;
+.rectangle{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
 }
-blockquote, q {
-quotes: none;
+.square{
+	float: left;
+	width: 50%;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-content: '';
-content: none;
+#logo{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	width: 600px;
+	text-align: left
 }
-table {
-border-collapse: collapse;
-border-spacing: 0;
+#zegar{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	text-align: left;
 }
-.main_head {
-color: red;
-font-size: 40px;
-font: Arial;
-text-align: center;
+.tile1{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+	text-align: center;
 }
-.main_paragraphs {
-color: blue;
-font-size: 24px;
-font: Arial;
-text-align: center;
+
+.tile1:hover{
+	background-color: #2084c2;
 }
-.small-img {
-width: 400px;
-padding: center;
-float: left;
+
+.tile2{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #666666;
+	float: left;
+	text-align: center;
 }
-.border-img {
-border-width: 2px;
-border-color: orange;
-border-style: solid;
-border-radius: 30%;
+.tile2:hover{
+	background-color: #555555;
 }
-.links_head {
-color: red;
-font-size: 36px;
-text-decoration-line: none;
+.tile3{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #93c748;
+	float: left;
+	text-align: center;
 }
-.bg-color {
-background: linear-gradient(black, gray);
+.tile3:hover{
+	background-color: #82b637;
 }
-div {
-margin-left: 5%;
-margin-right: 5%;
-display: flex;
-align-items: center;
-justify-content: center
+.tile4{
+	margin: 10px;
+	width: 420px;
+	height: 82px;
+	background-color: #ee5232;
+	text-align: center;
+	font-size: 26px;
+	padding: 30px;
+	line-height: 1.5;
 }
-.block {
-display: block;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-left: 5%;
-margin-right: 5%;
+.tile5{
+	margin: 10px;
+	width: 420px;
+	height: 244px;
+	background-color: #666666;
+	float: left;
+	text-align: justify;
+	padding: 30px;
 }
-header {
-position: sticky;
-top: 0;
-height: 50px;
-margin-left: 5%;
-margin-right: 5%;
-background-image: url("back_nav.jpg");
-display: flex;
-align-items: center;
-justify-content: center;
+.yt{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	float: left;
 }
-nav {
-display: flex;
-align-items: center;
-justify-content: center;
-height: 50%;
-width: 30%;
+.yt:hover{
+	background-color: #c83237;
 }
-nav a {
-padding: 20%;
-text-decoration-line: none;
-text-shadow: 20px;
+.fb{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+	float: left;
 }
-footer {
-position: sticky;
-bottom: 0;
-height: 10%;
-margin-left: 5%;
-margin-right: 5%;
-display: flex;
-align-items: center;
-justify-content: center;
-background-image: url("back_nav.jpg");
+.fb:hover{
+	background-color: #3557a2;
 }
-footer a {
-font-weight: bold;
-text-decoration-line: none;
-text-shadow: 2px -1px #737373;
-padding: 1% 5% 1%;
+.gp{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+	float: left;
 }
-span.ccc {
-margin-left: 5%;
-padding-left: 90%;
-margin-top: 5%; 
-padding-bottom: 58%;
-background-image: url("b1.jpg");
+.gp:hover{
+	background-color: #c84222;
 }
+.tw{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+}
+.tw:hover{
+	background-color: #2094c3;
+}
+a.tilelink{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+a.tilelinkhtml5{
+	text-decoration: none;
+	color: #ffffff;
+}
+a.sociallink{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	width: 105px;
+	height: 142px;
